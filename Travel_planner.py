@@ -4,7 +4,7 @@ import google.generativeai as genai
 st.set_page_config(page_title= "Travel Planner")
 st.title("I am your Travel Planner")
 
-genai.configure(api_key = "AIzaSyBUWdkr6uoz9QnoOrDedsK4N0s4aLHGD-c")
+genai.configure(api_key = API_Key)
 
 sys_prompt=("""You are Travel planner who will ask for three inputs which is Location , Days for how many 
 traveller wants to travel and date. Location and days would the mandotary inputs. After getting response you 
